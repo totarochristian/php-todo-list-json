@@ -1,5 +1,4 @@
 const {createApp} = Vue;
-import axios from 'axios';
 createApp({
     data(){
         return {
@@ -23,6 +22,15 @@ createApp({
         },
         RemoveQuest(index){
             this.quests.splice(index,1);
+        },
+        LoadData(){
+            axios.get(this.urlApi).then((res) => {
+                console.log(res);
+                this.quests = res.data;
+            });
         }
+    },
+    mounted(){
+        this.LoadData();
     }
 }).mount("#app");

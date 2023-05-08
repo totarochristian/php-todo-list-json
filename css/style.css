@@ -1,0 +1,22 @@
+#app{
+    width: 100%;
+    height: 100vh;
+}
+#questList{
+    width: 80%;
+    height: 70vh;
+    max-width: 1000px;
+}
+#questList>.card{
+    width: 100%;
+    height: 100%;
+}
+#questList>.card>ul{
+    overflow-y: auto;
+}
+.done{
+    text-decoration: line-through;
+}
+.tomorrow{
+    text-decoration: underline;
+}

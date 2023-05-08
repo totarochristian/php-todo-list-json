@@ -1,19 +1,17 @@
-{
-  "data": [
-    {
-      "id": "quest_1",
-      "toDo": "Pane",
-      "done": 0
-    },
-    {
-      "id": "quest_2",
-      "toDo": "Burro",
-      "done": 0
-    },
-    {
-      "id": "quest_3",
-      "toDo": "Marmellata",
-      "done": 0
-    }
-  ]
-}
+[
+  {
+    "id": "quest_1",
+    "toDo": "Pane",
+    "done": 0
+  },
+  {
+    "id": "quest_2",
+    "toDo": "Burro",
+    "done": 0
+  },
+  {
+    "id": "quest_3",
+    "toDo": "Marmellata",
+    "done": 0
+  }
+]

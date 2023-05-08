@@ -1,11 +1,13 @@
 const {createApp} = Vue;
+import axios from 'axios';
 createApp({
     data(){
         return {
             title: 'Lista della spesa per Pasquetta',
             lastQuestId: 0,
             quests: [],
-            newQuest: ''
+            newQuest: '',
+            urlApi: "./API/quests.php"
         }
     },
     methods:{
